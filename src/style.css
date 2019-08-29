@@ -1,0 +1,85 @@
+body {
+    background-image: url("fundo.jpg");
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 0%;
+    color: firebrick;
+    font-family: 'Cinzel', serif ;
+    font-size: 480%;
+}
+h2 {
+    margin-right: 20px;
+    margin-top: -40px;
+    font-family: 'Lacquer', sans-serif;
+    font-size: 230%;
+    color: rgb(10, 26, 56)
+}
+main {
+    text-align: right;
+    margin-right: 230px;
+}  
+#result {
+    text-align: justify;
+    margin-inline: 781px; /* Esta linha esta mantendo a caixa result do lado direito da tela, ao retirar esta linha a caixa result volta para o lado esquerdo*/
+    height: 140px;  
+    width: 318px;
+    background-color: transparent;
+    border-left-color: blue;
+    margin-bottom: -5px;
+    margin-top: -5px;
+    word-break: break-all;
+    color: rgb(255, 0, 0);
+    font-family: 'Lacquer', sans-serif;
+    border: 1px double snow;
+    overflow: scroll;
+}
+.obligate {
+    font-size: 13px;
+    margin-bottom: -5px;
+    margin-right: 25px;
+    margin-top: 
+}
+#key {
+    width: 160px;
+    text-align: center;
+    background-color: transparent;
+    color: rgb(255, 0, 0);
+    border-color: snow;
+    font-family: 'Lacquer', sans-serif;
+    margin-right: 30px;
+}
+#message {
+    margin-right: -47px;
+    margin-top: 10px;
+    margin-bottom: -5px;
+    text-align: center;
+    font-family: 'Lacquer', sans-serif;
+    color: rgb(255, 0, 0);
+    background-color: transparent;
+}
+#test {
+    margin-right: 70px;
+    font-family: 'Cinzel', serif ;
+}
+#test2 {
+    margin-right: -20px;
+    font-family: 'Cinzel', serif ;
+}
+#Enviar {
+    margin-right: 70px;
+    font-family: 'Cinzel', serif ;
+}
+#Destruir {
+    margin-right: -20px;
+    font-family: 'Cinzel', serif ;
+}
+.highlighter {
+    background-color: rgba(231, 239, 240, 0.658);
+}
+/* Foram adicionadas 'Lacquer', sans-serif; e 'Cinzel', serif; do Google Fonts */
