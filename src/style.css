@@ -12,8 +12,10 @@ h1 {
     color: firebrick;
     font-family: 'Cinzel', serif ;
     font-size: 480%;
+    margin-bottom: 45px;
 }
 h2 {
+    margin-bottom: 26px;
     margin-right: 20px;
     margin-top: -40px;
     font-family: 'Lacquer', sans-serif;

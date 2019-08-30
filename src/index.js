@@ -7,7 +7,7 @@ function message1() {
   let key = Number (document.getElementById("key").value);
   let resultado = document.getElementById("result");
   let cifra = window.cipher.encode(key, text);
-  resultado.innerHTML=`<p class="highlighter"> Seu resultado é: ${cifra}<p>`; // highlighter imprime com marca texto.
+  resultado.innerHTML=`<p class="highlighter"> Mensagem codificada: ${cifra}<p>`; // highlighter imprime com marca texto.
 }
  
 function message2() {
@@ -16,7 +16,7 @@ function message2() {
   let key = document.getElementById("key").value;
   let resultado = document.getElementById("result");
   let cifra = window.cipher.decode(key, text);
-  resultado.innerHTML=`<p class="highlighter"> Seu resultado é: ${cifra}<p>`;
+  resultado.innerHTML=`<p class="highlighter"> Mensagem decodificada: ${cifra}<p>`;
 }
 /*Cria a caixa (input) no html, usuario ira colocar o texto e ao clicar no botao esse texto sera 
  chamado no index.js e colocado em uma variavel. Ainda no index.js voce chama
