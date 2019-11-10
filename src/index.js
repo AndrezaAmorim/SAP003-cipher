@@ -1,22 +1,22 @@
-document.getElementById("test").addEventListener("click", message1); // A ação do click deve ser chamado no index.js
-document.getElementById ("test2").addEventListener("click", message2);
+document.querySelector('.btn-cifrar').addEventListener("click", messageEncrypted); // A ação do click deve ser chamado no index.js
+document.querySelector('.btn-decifrar').addEventListener("click", messageDeciphered);
 
-function message1() {
+function messageEncrypted() {
   event.preventDefault();
-  let text = document.getElementById("message").value;
-  let key = Number (document.getElementById("key").value);
-  let resultado = document.getElementById("result");
-  let cifra = window.cipher.encode(key, text);
-  resultado.innerHTML=`<p class="highlighter"> Mensagem codificada: ${cifra}<p>`; // highlighter imprime com marca texto.
+  let text = document.querySelector('.message').value;
+  let key = Number (document.querySelector('.key').value);
+  let result = document.querySelector('.result');
+  let encrypted = window.cipher.encode(key, text);
+  result.innerHTML=`<p class="highlighter"> Mensagem codificada: ${encrypted}<p>`; // highlighter imprime com marca texto.
 }
  
-function message2() {
+function messageDeciphered() {
   event.preventDefault();
-  let text = document.getElementById("message").value;
-  let key = document.getElementById("key").value;
-  let resultado = document.getElementById("result");
-  let cifra = window.cipher.decode(key, text);
-  resultado.innerHTML=`<p class="highlighter"> Mensagem decodificada: ${cifra}<p>`;
+  let text = document.querySelector('.message').value;
+  let key = document.querySelector('.key').value;
+  let result = document.querySelector('.result');
+  let deciphered = window.cipher.decode(key, text);
+  result.innerHTML=`<p class="highlighter"> Mensagem decodificada: ${deciphered}<p>`;
 }
 /*Cria a caixa (input) no html, usuario ira colocar o texto e ao clicar no botao esse texto sera 
  chamado no index.js e colocado em uma variavel. Ainda no index.js voce chama
