@@ -5,6 +5,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 h1 {
     text-align: right;
     margin-right: 10px;
@@ -14,6 +15,7 @@ h1 {
     font-size: 480%;
     margin-bottom: 45px;
 }
+
 h2 {
     margin-bottom: 26px;
     margin-right: 20px;
@@ -22,10 +24,12 @@ h2 {
     font-size: 230%;
     color: rgb(10, 26, 56)
 }
+
 main {
     text-align: right;
     margin-right: 230px;
-}  
+}
+
 .result {
     text-align: justify;
     height: 140px;  
@@ -40,12 +44,13 @@ main {
     border: 1px double snow;
     overflow: auto;
 }
+
 .obligate {
     font-size: 13px;
     margin-bottom: -5px;
     margin-right: 25px;
-    
 }
+
 .key {
     width: 160px;
     text-align: center;
@@ -55,6 +60,7 @@ main {
     font-family: 'Lacquer', sans-serif;
     margin-right: 30px;
 }
+
 .message {
     margin-right: -47px;
     margin-top: 10px;
@@ -63,24 +69,31 @@ main {
     font-family: 'Lacquer', sans-serif;
     color: rgb(255, 0, 0);
     background-color: transparent;
+    box-shadow: inset 0 3px 3px rgba(0, 0, 0, 0.2);
 }
+
 .btn-cifrar {
     margin-right: 70px;
     font-family: 'Cinzel', serif ;
 }
+
 .btn-decifrar {
     margin-right: -20px;
     font-family: 'Cinzel', serif ;
 }
+
 .btn-enviar {
     margin-right: 70px;
     font-family: 'Cinzel', serif ;
 }
+
 .btn-destruir {
     margin-right: -20px;
     font-family: 'Cinzel', serif ;
 }
+
 .highlighter {
     background-color: rgba(231, 239, 240, 0.658);
 }
+
 /* Foram adicionadas 'Lacquer', sans-serif; e 'Cinzel', serif; do Google Fonts */
