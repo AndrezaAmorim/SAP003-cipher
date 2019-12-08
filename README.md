@@ -42,13 +42,13 @@ a cifra de Vigenère, e tem aplicação no sistema ROT13.
 
 Este projeto é um jogo online de conquista que visa estimular a criatividade, estratégia, trabalho em equipe e liderança.
 O jogador irá comandar um exército com o intuito de conquistar outros reinos. É permitido fazer alianças com outros jogadores para alcançar os objetivos.
-Como forma de comunicação será usada a Cifra de César para enviar mensagens secretas aos aliados ou destruir as mensagens recebidas para que não caia nas mãos dos inimigos.
+Como forma de comunicação será usada a Cifra de César para enviar mensagens secretas aos aliados ou apagar as mensagens recebidas para que não caia nas mãos dos inimigos.
 
 ## 3. Considerações gerais
 
 * É possível cifrar e decifrar letras do alfabeto sejam elas maiúsculas ou minúsculas;
 * Não há alteração para números e caracteres especiais;
-* Os botões Enviar e Destruir são ilustrativos, ainda não há funcionalidade neles.
+* É possível apagar a mensagem codificada ou decodificada.
 
 ## 4. Definição do produto
 
@@ -70,6 +70,7 @@ A interface permite ao usuário:
 * Ao clicar no botão Cifrar será exibido o resultado da mensagem cifrada.
 * Inserir uma mensagem para ser decifrada.
 * Ao clicar no botão Decifrar será exibido o resultado da mensagem decifrada.
+* Ao clicar no botão Apagar as informações inseridas serão apagadas.
 
 ## 5. Considerações técnicas
 

@@ -1,87 +1,86 @@
 body {
-    background-image: url("fundo.jpg");
-    height: 600px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("Images/fundo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
 }
+
 h1 {
-    text-align: right;
-    margin-right: 10px;
-    margin-top: 0%;
-    color: firebrick;
-    font-family: 'Cinzel', serif ;
-    font-size: 480%;
-    margin-bottom: 45px;
+  margin-right: 10px;
+  margin-top: 0%;
+  margin-bottom: 50px;
+  text-align: right;
+  font-size: 480%;
+  font-family: 'Cinzel', serif ;
+  color: firebrick;
 }
+
 h2 {
-    margin-bottom: 26px;
-    margin-right: 20px;
-    margin-top: -40px;
-    font-family: 'Lacquer', sans-serif;
-    font-size: 230%;
-    color: rgb(10, 26, 56)
+  margin-right: 205px;
+  margin-top: -40px;
+  margin-bottom: 30px;
+  text-align: right;
+  font-size: 230%;
+  font-family: 'Lacquer', sans-serif;
+  color: rgb(10, 26, 56);
 }
-main {
-    text-align: right;
-    margin-right: 230px;
-}  
-#result {
-    text-align: justify;
-    margin-inline: 781px; /* Esta linha esta mantendo a caixa result do lado direito da tela, ao retirar esta linha a caixa result volta para o lado esquerdo*/
-    height: 140px;  
-    width: 318px;
-    background-color: transparent;
-    border-left-color: blue;
-    margin-bottom: -5px;
-    margin-top: -5px;
-    word-break: break-all;
-    color: rgb(255, 0, 0);
-    font-family: 'Lacquer', sans-serif;
-    border: 1px double snow;
-    overflow: scroll;
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 170px;
 }
-.obligate {
-    font-size: 13px;
-    margin-bottom: -5px;
-    margin-right: 25px;
-    margin-top: 
+
+.text-box {
+  width: 250px;
+  text-align: center;
+  border: 1px double snow;
+  font-family: 'Lacquer', sans-serif;
+  background-color: rgb(235, 175, 175, 0.5);
+  color: rgb(8, 29, 68);
 }
-#key {
-    width: 160px;
-    text-align: center;
-    background-color: transparent;
-    color: rgb(255, 0, 0);
-    border-color: snow;
-    font-family: 'Lacquer', sans-serif;
-    margin-right: 30px;
+
+.message {
+  margin-top: 20px;
+  height: 100px;
+  resize: none;
 }
-#message {
-    margin-right: -47px;
-    margin-top: 10px;
-    margin-bottom: -5px;
-    text-align: center;
-    font-family: 'Lacquer', sans-serif;
-    color: rgb(255, 0, 0);
-    background-color: transparent;
+
+.result {
+  height: 110px;
+  text-align: justify;
+  word-break: break-all;
+  overflow: auto;
 }
-#test {
-    margin-right: 70px;
-    font-family: 'Cinzel', serif ;
+
+.btn {
+  display: flex;
+  justify-content: space-around;
+  width: 250px;
 }
-#test2 {
-    margin-right: -20px;
-    font-family: 'Cinzel', serif ;
+
+.btn-box {
+  width: 100px;
+  height: 25px;
+  border-radius: 20px;
+  text-align: center;
+  font-family: 'Cinzel', serif ;
+  color:rgb(8, 29, 68);
+  background-color: rgb(224, 142, 88);
 }
-#Enviar {
-    margin-right: 70px;
-    font-family: 'Cinzel', serif ;
+
+.btn-box:hover {
+  background-color: rgb(221, 111, 38);
+  color: #fff;
+  cursor: pointer;
 }
-#Destruir {
-    margin-right: -20px;
-    font-family: 'Cinzel', serif ;
+
+.btn-box:active{
+  position:relative;
+  top:5px;
+  box-shadow:none;
 }
-.highlighter {
-    background-color: rgba(231, 239, 240, 0.658);
-}
+
 /* Foram adicionadas 'Lacquer', sans-serif; e 'Cinzel', serif; do Google Fonts */
