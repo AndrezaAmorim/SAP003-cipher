@@ -7,26 +7,21 @@
     <link href="https://fonts.googleapis.com/css?family=Anton|Black+Ops+One|Cinzel|Hanalei|Kaushan+Script|Lacquer|Lobster|Press+Start+2P|Saira+Stencil+One|Shadows+Into+Light&display=swap" rel="stylesheet"> 
   </head>
   <body>
-    <h1>Caesar Cipher</h1>
+    <header>
+      <h1>Caesar Cipher</h1>
+      <h2>&lt; Enigma &gt;</h2>
+    </header>
     <main>
       <form>
-       <section>
-          <h2>&lt; Enigma &gt;</h2>
-          <div class="obligate"><p>Preenchimento Obrigatório <strong><abbr title="Obrigatório">*</abbr></strong></p></div>
-          <div>
-            <strong><abbr title="Obrigatório">*</abbr></strong>
-            <input type= "number" class="key" name="key" placeholder="Insira a sua chave">
-            <strong><abbr title="Obrigatório">*</abbr></strong>
-            <textarea name="message" class="message" cols="24" rows="6" placeholder="Insira sua mensagem"></textarea>
-            <p><button class= "btn-cifrar"> Cifrar </button>
-            <button class = "btn-decifrar">Decifrar</button></p>
-          </div>
-          <div class="result"></div>
-        </section>    
+        <input type= "number" class="key text-box" name="key" placeholder="Insira o nº da sua chave">
+        <textarea name="message" class="message text-box" placeholder="Insira sua mensagem"></textarea>
+        <p class="btn">
+          <button class= "btn-cifrar btn-box">Cifrar</button>
+          <button class = "btn-decifrar btn-box">Decifrar</button>
+        </p>
+        <div class="result text-box"></div>
+        <p class="btn"><button class="btn-apagar btn-box">Apagar</button></p>
       </form>
-      <section>
-        <button class="btn-destruir">Destruir Mensagem</button> 
-      </section>
     </main>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
